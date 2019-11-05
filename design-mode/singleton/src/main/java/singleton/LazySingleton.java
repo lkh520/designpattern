@@ -10,8 +10,10 @@ package singleton;
  * @author lkh
  */
 public class LazySingleton {
+	// 初始化对象
 	private static volatile LazySingleton instance = null;
-
+	
+	
 	/**
 	 * 1. 私有构造器，避免类在外部被实例化
 	 * 
