@@ -17,4 +17,4 @@
 >
 >
 ### 23种设计模式详解
->>[单例模式](design-mode/singleton/readme.md)
+>>[单例模式](design-mode/singleton)
