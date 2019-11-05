@@ -1,27 +1,19 @@
 package singleton;
 
 /**
- * 单例使用类 
- * 【例】用懒汉式单例模式模拟女朋友对象。 
- * 分析：，图 2
- * 所示是用懒汉式单例实现的结构图。
+ * 单例使用类 【例】用懒汉式单例模式模拟女朋友对象。 分析：获得一个女朋友后,就不能有新的女朋友,再次请求获得女朋友后,会判断是否为同一个人
+ * 以此证明,每一个实例对象都是相同的,只会被初始化一次
  * 
  * @author Administrator
  *
  */
 public class SingleClient {
-
 	public static void main(String[] args) {
-		// 获得第一个对象实例
-		LazySingleton obj1 = LazySingleton.getInstance();
-		// 获得第二个对象实例
-		LazySingleton obj2 = LazySingleton.getInstance();
-		// 判断两次的对象是否为同一个
-		if (obj1 == obj2) {
-			System.out.println("她们是同一人！");
-		} else {
-			System.out.println("她们不是同一人！");
+		// 在不同线程中去得到对象,对象应该是同一个, 此处用到5个线程
+		for (int i = 0; i < 5; i++) {
+			new Thread(() -> {
+				LazySingleton grilFriend = LazySingleton.getInstancePlus();
+			}).start();
 		}
 	}
-
 }
