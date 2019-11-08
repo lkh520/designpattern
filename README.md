@@ -22,7 +22,7 @@
 <ul>
 <li>工厂模式（Factory Pattern）</li>
 <li>抽象工厂模式（Abstract Factory Pattern）</li>
-<li><a href="design-mode/singleton/README.md">单例模式（Singleton Pattern）</a></li>
+<li><a href="design-mode/singleton">单例模式（Singleton Pattern）</a></li>
 <li>建造者模式（Builder Pattern）</li>
 <li>原型模式（Prototype Pattern）</li>
 </ul>
@@ -75,6 +75,3 @@
 </td>
 </tr>
 </tbody></table>
-
-### 23种设计模式详解
->>
