@@ -16,7 +16,7 @@
 ## 2.模式
 
 <table  border="1" >
-<tbody><tr><th style="width:5%;">序号</th><th style="width:45%;">模式 &amp; 描述</th><th>包括</th></tr>
+<tbody><tr><th style="width:5%;">序号</th><th style="width:30%;">模式 &amp; 描述</th><th>包括</th></tr>
 <tr><td align="center">1</td><td><b>创建型模式</b><br>这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。</td>
 <td>
 <ul>
