@@ -7,7 +7,11 @@
 ### 面向对象设计的7 条原则详解
 >>[开闭原则——面向对象设计原则](document/principle/1.md)</br  >
 >>[里氏替换原则——面向对象设计原则](document/principle/2.md)</br  >
-
+>>[依赖倒置原则——面向对象设计原则](document/principle/3.md)</br  >
+>>[单一职责原则——面向对象设计原则](document/principle/4.md)</br  >
+>>[接口隔离原则——面向对象设计原则](document/principle/5.md)</br  >
+>>[迪米特法则——面向对象设计原则](document/principle/6.md)</br  >
+>>[组合复用法则——面向对象设计原则](document/principle/7.md)</br  >
 
 ## 2.模式
 >
