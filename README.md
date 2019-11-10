@@ -24,7 +24,7 @@
 <li>抽象工厂模式（Abstract Factory Pattern）</li>
 <li><a href="design-mode/singleton">单例模式（Singleton Pattern）</a></li>
 <li>建造者模式（Builder Pattern）</li>
-<li>原型模式（Prototype Pattern）</li>
+<li><a href="design-mode/prototype">原型模式（Prototype Pattern）</a></li>
 </ul>
 </td>
 </tr>
