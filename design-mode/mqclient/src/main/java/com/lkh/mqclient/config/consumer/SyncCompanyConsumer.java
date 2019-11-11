@@ -33,7 +33,7 @@ public class SyncCompanyConsumer extends DefaultConsumerConfigure
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent arg0) {
 		try {
-			super.listener(topic, companyCode + "_" + syncCompanyTag, companyCode + "_"+this.groupName, "SYNCCOMPANY");
+			super.listener(topic, this.syncCompanyTag, this.groupName, "SYNCCOMPANY");
 		} catch (MQClientException e) {
 			log.error("消费者监听器启动失败", e);
 		}

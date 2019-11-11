@@ -47,7 +47,6 @@ public abstract class DefaultConsumerConfigure {
 						JSONObject jsonObject = JSONObject.parseObject(new String(messageExt.getBody()));
 						DefaultConsumerConfigure configure = ApplicationContextUtil.getBeanByClass(instanceName, DefaultConsumerConfigure.class);
 						configure.processBusiness(jsonObject);
-						// DefaultConsumerConfigure.this.processBusiness(jsonObject);
 						log.info("收到网关消息，消费处理完成 耗时{}", System.currentTimeMillis() - startTime);
 					} catch (Throwable e) { // 记录报错信息
 						errorInfo = e.getMessage();
