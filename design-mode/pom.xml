@@ -26,6 +26,7 @@
 		<module>singleton</module>
 		<module>prototype</module>
 		<module>mqclient</module>
+		<module>dip</module>
 	</modules>
 
 	<dependencyManagement>
