@@ -8,12 +8,12 @@ public class MrHappy {
 	}
 	/**拿书*/
 	public void setBook(Book book) {
-		System.out.println("开心随手拿了一本书:"+book.getName());
+		System.out.println("开心开始读:"+book.getName());
 		this.book = book;
 	}
 	/**讲故事*/
 	public void telling() {
-		System.out.println("开心开始讲故事");
+		//System.out.println("开心开始讲故事");
         System.out.println(book.getContent());
 	}
 }
